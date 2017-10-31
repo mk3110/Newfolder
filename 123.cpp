@@ -3,6 +3,7 @@
     #include<string.h>
     #include<math.h>
     #define MAX 1000
+long t;
     void reverse(char *from, char *to )
     {
         int len=strlen(from);
