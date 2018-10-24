@@ -35,7 +35,7 @@ long t;
             }
             while(hold!=0){
                 res=hold+temp[f+s]-'0';
-                hold=res/10;
+                hold=res/10;//anjas
                 temp[f+s]=res%10+'0';
                 if(r<f+s) r=f+s;
                 f++;
